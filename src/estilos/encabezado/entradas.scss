@@ -1,0 +1,26 @@
+.entradas_container {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: baseline;
+  align-items: center;
+  background-color: gray;
+  padding: 10px 30px;
+  color: white;
+  font-size: 2rem;
+}
+
+.entradas_titulo {
+  font-size: clamp(1.5rem, 4vw, 5rem); // Ajuste automático del tamaño de la fuente
+  display: flex;
+  flex-shrink: 2;
+}
+
+.entradas_boton {
+  font-size: clamp(1.5rem, 4vw, 5rem); // Ajuste automático del tamaño de la fuente
+  padding-left: 30px;
+  display: flex;
+  flex-shrink: 2;
+  align-items: center;
+}
