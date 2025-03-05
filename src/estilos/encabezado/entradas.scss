@@ -1,26 +1,28 @@
+@import '../sass.scss';
+
 .entradas_container {
   height: auto;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: baseline;
+  flex-wrap: nowrap; //Una sola línea 
+  justify-content:space-between;
   align-items: center;
-  background-color: gray;
+  background-color: $gris;
   padding: 10px 30px;
-  color: white;
+  color: $blanco;
   font-size: 2rem;
 }
 
 .entradas_titulo {
-  font-size: clamp(1.5rem, 4vw, 5rem); // Ajuste automático del tamaño de la fuente
+  font-size: clamp(1.5rem, 4vw, 4rem); // Ajuste automático del tamaño de la fuente
   display: flex;
-  flex-shrink: 2;
+  flex-shrink: 2; // Velocidad decreciente
 }
 
 .entradas_boton {
-  font-size: clamp(1.5rem, 4vw, 5rem); // Ajuste automático del tamaño de la fuente
+  font-size: clamp(1.5rem, 4vw, 4rem); // Ajuste automático del tamaño de la fuente
   padding-left: 30px;
   display: flex;
-  flex-shrink: 2;
+  flex-shrink: 2; // Velocidad decreciente
   align-items: center;
 }
