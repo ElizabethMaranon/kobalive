@@ -1,0 +1,23 @@
+.encabezadoFecha_container {
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: black;
+  padding: 10px 30px;
+  color: white;
+}
+
+.falta {
+  font-size: clamp(1.5rem, 4vw, 5rem); // Ajuste automático del tamaño de la fuente
+  padding-left: 30px;
+  display: flex;
+  text-align: center;
+}
+
+.logo_img {
+  width: 100px;
+  height: auto;
+}
