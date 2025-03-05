@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import '../../style/encabezado/entradas_style.scss';
+import '../../estilos/encabezado/entradas.scss';
 
 export default class Entradas extends Component {
   render() {
     return (
       <div className='entradas_container'>
         <div className='entradas_titulo'>
-          No te quedes sin tu entrada
+          Sumérgete en una experiencia que nunca olvidará
         </div>
         <div className='entradas_boton'>
-          Compra tu entrada aquí
+          Consigue aquí tus entradas
         </div>
 
       </div>
