@@ -6,7 +6,7 @@ export default class Entradas extends Component {
     return (
       <div className='entradas_container'>
         <div className='entradas_titulo'>
-          Sumérgete en una experiencia que nunca olvidará
+          Sumérgete en una experiencia que nunca olvidarás
         </div>
         <div className='entradas_boton'>
           Consigue aquí tus entradas

@@ -15,7 +15,6 @@ export default class ContenidoApp extends Component {
           Descargar
         </div>
       </div>
-
     );
   }
 }
