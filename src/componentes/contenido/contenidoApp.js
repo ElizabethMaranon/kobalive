@@ -8,15 +8,17 @@ export default class ContenidoApp extends Component {
   render() {
     return (
       <div className='contenido_app_container'>
-        <img src={Fecha} alt="Logo Koba" className="fecha_img" />
-        <img src={Logo} alt="Logo Koba" className="logo_img" />
-        <img src={Logo} alt="Logo Koba" className="logo_img" />
-        <img src={Logo} alt="Logo Koba" className="logo_img" />
-        <img src={Logo} alt="Logo Koba" className="logo_img" />
-        <img src={Logo} alt="Logo Koba" className="logo_img" />
-        <img src={Logo} alt="Logo Koba" className="logo_img" />
-        <img src={Logo} alt="Logo Koba" className="logo_img" />
+        <div className='contenido_app_banda'>
+          <img src={Logo} alt="Logo Koba" className="banda_img" />
+          <img src={Logo} alt="Logo Koba" className="banda_img" />
+          <img src={Logo} alt="Logo Koba" className="banda_img" />
+          <img src={Logo} alt="Logo Koba" className="banda_img" />
+          <img src={Logo} alt="Logo Koba" className="banda_img" />
+          <img src={Logo} alt="Logo Koba" className="banda_img" />
+          <img src={Logo} alt="Logo Koba" className="banda_img" />
+        </div>
       </div>
+
     );
   }
 }

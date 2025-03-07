@@ -1,2 +1,30 @@
 @use '../sass.scss';
 
+.contenido_app_container {
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../assets/images/fecha.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.contenido_app_banda {
+  padding: 10px;
+  margin-left: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+
+}
+
+.banda_img {
+  width: 40%;
+  padding: 5px;
+  height: auto;
+  display:flex;
+  align-items: center;
+  align-content: center;
+}
+
