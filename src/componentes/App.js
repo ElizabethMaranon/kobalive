@@ -3,6 +3,7 @@ import '../estilos/App.scss';
 import Encabezado from './encabezado/encabezado';
 import Entradas from './encabezado/entradas';
 import ContenidoApp from './contenido/contenidoApp';
+import Pie from './pie/pie';
 
 export default class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
         <Encabezado />
         <Entradas />
         <ContenidoApp />
+        <Pie />
       </div>
     );
   }
