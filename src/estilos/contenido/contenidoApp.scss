@@ -1,15 +1,16 @@
 @import '../sass.scss';
 
+.contenido_app_fecha {
+  z-index: 1;
+}
 .fecha {
   width: 100%;
   height: auto;
-  z-index: 1;
 }
 
 .fecha img {
   width: 100%;
   height: auto;
-  z-index: 1;
 }
 
 .contenido_app_banda {
