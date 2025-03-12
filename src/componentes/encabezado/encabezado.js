@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import moment from 'moment';
-import 'moment/locale/es'; // Importa el idioma español
-import '../../estilos/encabezado/encabezado.scss'; // Importa el archivo CSS
+import 'moment/locale/es';
+import '../../estilos/encabezado/encabezado.scss';
+
 import Logo from '../../assets/images/LogoKoba.png';
 
 
@@ -35,12 +36,23 @@ export default class Encabezado extends Component {
     const seconds = duration.seconds();
 
     return (
-      <div className="encabezadoFecha_container">
+      <div className="encabezado_container">
         <div className='logo'>
           <img src={Logo} alt="Logo Koba" className="logo_img" />
         </div>
-        <div className="falta">
-          Faltan {days} días, {hours} horas {minutes} minutos y {seconds} segundos
+        <div className='encabezado'>
+          <div className="falta">
+            Faltan {days} días, {hours} horas {minutes} minutos y {seconds} segundos
+          </div>
+          <div className='entradas_container'>
+            <div className='entradas_titulo'>
+              Sumérgete en una experiencia que nunca olvidarás
+            </div>
+            <div className='entradas_boton'>
+              Consigue aquí tus entradas
+            </div>
+          </div>
+
         </div>
       </div>
     );
