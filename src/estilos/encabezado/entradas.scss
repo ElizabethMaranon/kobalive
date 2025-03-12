@@ -2,27 +2,27 @@
 
 .entradas_container {
   height: auto;
+  padding: 10px 30px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap; //Una sola línea 
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: $gris;
-  padding: 10px 30px;
   color: $negro;
-  font-size: 2rem;
+  font-size: clamp(2rem, 3vw, 4.5rem);
 }
 
 .entradas_titulo {
-  font-size: clamp(1.5rem, 4vw, 4rem); // Ajuste automático del tamaño de la fuente
   display: flex;
-  flex-shrink: 2; // Velocidad decreciente
+  align-items: center;
+  white-space: nowrap;
 }
 
 .entradas_boton {
-  font-size: clamp(1.5rem, 4vw, 4rem); // Ajuste automático del tamaño de la fuente
-  padding-left: 30px;
   display: flex;
-  flex-shrink: 2; // Velocidad decreciente
   align-items: center;
+  white-space: nowrap;
+  cursor: pointer;
+  overflow: visible;
 }
