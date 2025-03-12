@@ -9,7 +9,7 @@ export default class Entradas extends Component {
           Sumérgete en una experiencia que nunca olvidarás
         </div>
         <div className='entradas_boton'>
-          Consigue aquí tus entradas
+          Consigue aquí tus entradas
         </div>
 
       </div>

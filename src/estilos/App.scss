@@ -17,10 +17,11 @@ body {
     font-family: 'Metal Mania', cursive;
     overflow-x: hidden;
     font-weight: normal;
-    -webkit-font-smoothing: antialiased; // Versiones antiguas Safari o Chrome: Bordes + suaves y - pixelados
-    -moz-osx-font-smoothing: grayscale; // Firefox en MacOS suavidad bordes: escala grises
-    text-rendering: optimizeLegibility; // renderizar texto: mejorar apariencia
-    -webkit-tap-highlight-color: transparent; // color resaltado al hacer tap: transparente
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+    cursor: url('../assets/images/KOBA_plata_50x50.png'), auto;
 }
 
 .app {
