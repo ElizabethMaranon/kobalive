@@ -1,18 +1,19 @@
 @import '../sass.scss';
 
-.contenido_app_fecha {
-  z-index: 1;
-}
-.fecha {
-  width: 100%;
-  height: auto;
-}
-
-.fecha img {
-  width: 100%;
-  height: auto;
-}
-
 .contenido_app_banda {
-  z-index: 2;
+  background-color: $gris;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* Espacio entre elementos */
+}
+
+.banda {
+  display:flex;
+  flex: 1 1 calc(50% - 10px);
+  /* Ocupa el 50% del ancho menos el gap */
+  justify-content: center;
+  align-content: center;
 }

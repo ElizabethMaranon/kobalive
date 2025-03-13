@@ -52,7 +52,18 @@ export default class Encabezado extends Component {
               Consigue aquí tus entradas
             </div>
           </div>
-
+          <div className='menu'>
+            <div className='Home'>
+              Home
+            </div>
+            <div className='About'>
+              About
+            </div>
+            <div className='Contact'>
+              Contact
+            </div>
+            
+          </div>
         </div>
       </div>
     );

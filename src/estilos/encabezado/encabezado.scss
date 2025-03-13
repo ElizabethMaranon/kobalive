@@ -1,62 +1,63 @@
 @import '../sass.scss';
 
 .encabezado_container {
-  height: 175px;
+  height: 150px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: $negro;
   color: $marron;
-  font-size: clamp(2rem, 3vw, 4.5rem);
+  flex-wrap: nowrap;
 }
 
-.logo{
-  padding: 10px;
-  height: 75px;
-  display:flex;
+.logo {
+  width: 200px;
+  padding: 0px;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .logo_img {
-  height: 150px;
+  width: 100%;
 }
 
 .encabezado {
-  display:flex;
-  padding: 25px;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-/* .falta {
   display: flex;
-  text-align: center;
+  padding: 0px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
 }
- */
-/* .entradas_container {
-  height: auto;
-  padding: 10px 30px;
+
+.falta {
+  text-align: left;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.entradas_container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+    width: fit-content;
+}
+
+.entradas_titulo {
+  color: $marron;
+}
+
+.entradas_boton {
+  color:aqua;
+}
+
+.menu {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: $gris;
-  color: $negro;
-  font-size: clamp(2rem, 3vw, 4.5rem);
 }
- */
-/* .entradas_titulo {
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
-}
- */
-/* .entradas_boton {
-  display: flex;
-  align-items: center;
-  white-space: nowrap;
-  cursor: pointer;
-  overflow: visible;
-} */

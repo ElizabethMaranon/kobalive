@@ -8,34 +8,31 @@ export default class ContenidoApp extends Component {
   render() {
     return (
       <div className='contenido_app_container'>
-        <div className='contenido_app_fecha'>
-          <img src={Fecha} alt="Fecha" className="fecha" />
-          </div>
         <div className='contenido_app_banda'>
-          <div className='banda1'>
+          <div className='banda'>
             banda1
           </div>
-          <div className='banda2'>
+          <div className='banda'>
             banda2
           </div>
-          <div className='banda3'>
+          <div className='banda'>
             banda3
           </div>
-          <div className='banda4'>
+          <div className='banda'>
             banda4
           </div>
-          <div className='banda5'>
+          <div className='banda'>
             banda5
           </div>
-          <div className='banda6'>
+          <div className='banda'>
             banda6
           </div>
-          <div className='banda7'>
+          <div className='banda'>
             banda7
           </div>
-          <div className='banda8'>
+          <div className='banda'>
             banda8
-            </div>
+          </div>
         </div>
       </div>
     );
