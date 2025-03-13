@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import '../../estilos/pie/pie.scss';
-import Mielma from '../../assets/images/Logo_MielmaDev.png';
+import PieMonte from '../../assets/images/pie_pag.jpg';
 
 export default class Pie extends Component {
-render () {
-  return (
-  <img src={Mielma} alt="Logo MielmaDev" className="mielma_img" />
-);
-}
+  render() {
+    return (
+      <div className="pie_container">
+        <div className="pie_fondo">
+          <img src={PieMonte} alt="Monte" className="pie_monte" />
+        </div>
+      </div>
+    );
+  }
 }

@@ -1,0 +1,22 @@
+@import '../sass.scss';
+
+.pie_container {
+  height: 150px;
+}
+
+.pie_fondo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: flex-end;
+  /* Alinea en la parte baja */
+}
+
+.pie_fondo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
