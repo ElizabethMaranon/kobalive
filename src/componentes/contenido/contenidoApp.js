@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../../estilos/contenido/contenidoApp.scss';
-import Logo from '../../assets/images/LogoKoba.png';
-import Fecha from '../../assets/images/fecha.jpg';
 
 
 export default class ContenidoApp extends Component {
