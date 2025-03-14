@@ -9,9 +9,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  /* Centra horizontalmente */
   align-items: flex-end;
-  /* Alinea en la parte baja */
 }
 
 .pie_fondo img {
@@ -19,4 +17,19 @@
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.patrocinio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  
+
 }
