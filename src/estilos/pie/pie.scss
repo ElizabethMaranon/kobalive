@@ -1,35 +1,47 @@
 @import '../sass.scss';
 
 .pie_container {
+  color: $celeste;
   height: 150px;
-}
-
-.pie_fondo {
-  height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.pie_fondo img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
+  background-image: url('../../assets/images/MonteNegro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .patrocinio {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+  padding: 0px 50px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  pointer-events: none;
-  
+  height: 100%;
+}
 
+.organizador, .promotor {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.texto_organizador, .texto_promotor {
+  font-size: 2.5rem;
+  color: $amarillo;
+}
+
+.promotor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logo_promotor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
 }
