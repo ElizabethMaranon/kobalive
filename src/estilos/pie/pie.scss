@@ -1,6 +1,9 @@
 @import '../sass.scss';
 
 .pie_container {
+  border: 1px solid $rojo;
+  padding: 10px;
+  box-sizing: border-box;
   color: $celeste;
   height: 150px;
   width: 100%;
@@ -11,37 +14,42 @@
 }
 
 .patrocinio {
+  box-sizing: border-box;
   padding: 0px 50px;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1fr;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  gap: 1%;
 }
 
-.organizador, .promotor {
-
+.organizador,
+.promotor,
+.contacto {
+  border: 1px solid $celeste;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
 }
 
-.texto_organizador, .texto_promotor {
+.texto_organizador,
+.texto_promotor,
+.texto_contacto {
+  border: 1px solid $amarillo;
+  box-sizing: border-box;
   font-size: 2.5rem;
   color: $amarillo;
 }
 
-.promotor {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-}
-
 .logo_promotor {
+  border: 1px solid $morado;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }

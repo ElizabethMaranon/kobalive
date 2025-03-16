@@ -29,9 +29,14 @@ export default class Pie extends Component {
             </div>
           </div>
           <div className="contacto">
-            <p>Información / Informazioa</p>
-            <p>Contrataciones / Kontratazioak</p>
-            <p>Abadiño</p>
+            <div className="texto_contacto">
+              Contacto / Kontaktua
+            </div>
+            <div className="logo_contacto">
+              <p>Información / Informazioa</p>
+              <p>Contrataciones / Kontratazioak</p>
+              <p>Abadiño</p>
+            </div>
           </div>
         </div>
       </div>
