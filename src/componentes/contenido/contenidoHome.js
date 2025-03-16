@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './contenidoApp.scss';
+import './contenidoHome.scss';
 
 
-export default class ContenidoApp extends Component {
+export default class ContenidoHome extends Component {
   render() {
     return (
       <div className='contenido_app_container'>
