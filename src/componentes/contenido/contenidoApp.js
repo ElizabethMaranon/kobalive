@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../estilos/contenido/contenidoApp.scss';
+import './contenidoApp.scss';
 
 
 export default class ContenidoApp extends Component {
