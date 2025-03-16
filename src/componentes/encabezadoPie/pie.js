@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../estilos/pie/pie.scss';
+import './pie.scss';
 import Sugaar from '../../assets/images/Sugaar.png';
 import Abadiño from '../../assets/images/Abadiño.png';
 import Lasuen from '../../assets/images/Lasuen_Erlia.png';

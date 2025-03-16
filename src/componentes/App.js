@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../estilos/App.scss';
-import Encabezado from './encabezado/encabezado';
+import './App.scss';
+import Encabezado from './encabezadoPie/encabezado';
 import ContenidoApp from './contenido/contenidoApp';
-import Pie from './pie/pie';
+import Pie from './encabezadoPie/pie';
 
 export default class App extends Component {
   render() {
