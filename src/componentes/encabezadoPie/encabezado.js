@@ -6,7 +6,7 @@ import './encabezado.scss';
 import Logo from '../../assets/images/LogoKoba.png';
 
 
-moment.locale('es'); 
+moment.locale('es');
 
 export default class Encabezado extends Component {
   constructor(props) {
@@ -44,16 +44,16 @@ export default class Encabezado extends Component {
           <div className="falta">
             Faltan {days} días, {hours} horas {minutes} minutos y {seconds} segundos
           </div>
-            <div className='entradas_titulo'>
-              Sumérgete en una experiencia que nunca olvidarás
-            </div>
-            <div className='entradas_boton'>
-              Consigue aquí tus entradas
-            </div>
+          <div className='entradas_titulo'>
+            Sumérgete en una experiencia que nunca olvidarás
+          </div>
+          <div className='entradas_boton'>
+            Consigue aquí tus entradas
+          </div>
         </div>
 
       </div>
-      
+
     );
   }
 }
