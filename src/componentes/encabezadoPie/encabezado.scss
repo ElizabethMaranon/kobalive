@@ -8,8 +8,13 @@
   align-items: center;
   justify-content: space-between;
   background-color: $negro;
-  color: $marron;
   flex-wrap: nowrap;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  background-color: $negro; 
 }
 
 .logo {
@@ -31,10 +36,13 @@
   justify-content: center;
   align-items: center;
   flex: 1;
+  font-size: clamp(1.5rem, 2vw, 3rem);
 
 }
 
 .falta {
+  color: $rojo;
+  align-self: flex-start;
   text-align: left;
   display: flex;
   flex-wrap: nowrap;
@@ -44,15 +52,18 @@
   padding: 0px;
   display: flex;
   flex-direction: column;
-    width: fit-content;
+  width: fit-content;
 }
 
 .entradas_titulo {
-  color: $marron;
+  color: $amarillo;
+  align-self: center;
+  ;
 }
 
 .entradas_boton {
-  color:aqua;
+  align-self: flex-end;
+  color: aqua;
 }
 
 .menu {
