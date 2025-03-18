@@ -2,7 +2,7 @@
 
 .contenido_app_banda {
   box-sizing: border-box;
-  background-image: url('../../assets/images/Fondos/volcan.jpg');
+  // background-image: url('../../assets/images/Fondos/volcan.jpg');
   background-size: cover;
   /* Ajusta la imagen para que cubra todo el contenedor */
   background-position: center;
@@ -18,9 +18,9 @@
 }
 
 .banda {
-  border: $bordes;
+  // border: $bordes;
   display: flex;
-  flex: 1 1 calc(33% - 10px);
+  flex: 1 1 calc(25% - 10px);
   justify-content: space-around;
   align-content: center;
   align-items: center;
@@ -33,5 +33,4 @@
 
 .suicidal img {
   width: 100%;
-  background-color: $rojo;
 }
