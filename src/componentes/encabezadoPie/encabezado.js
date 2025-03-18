@@ -3,7 +3,7 @@ import moment from 'moment';
 import 'moment/locale/es';
 import './encabezado.scss';
 
-import Logo from '../../assets/images/LogoKoba.png';
+import Logo from '../../assets/images/Koba/LogoKoba.png';
 
 
 moment.locale('es');

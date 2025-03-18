@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './pie.scss';
-import Sugaar from '../../assets/images/Sugaar.png';
-import Abadiño from '../../assets/images/Abadiño.png';
-import Lasuen from '../../assets/images/Lasuen_Erlia.png';
-import Diputacion from '../../assets/images/Diputacion.png';
+import Sugaar from '../../assets/images/Patrocinios/Sugaar.png';
+import Abadiño from '../../assets/images/Patrocinios/Abadiño.png';
+import Lasuen from '../../assets/images/Patrocinios/Lasuen_Erlia.png';
+import Diputacion from '../../assets/images/Patrocinios/Diputacion.png';
 
 export default class Pie extends Component {
   render() {
