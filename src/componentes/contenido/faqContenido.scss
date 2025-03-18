@@ -1,6 +1,11 @@
 @import '../sass.scss';
 
 .faq {
+  background-image: url('../../assets/images/Fondos/volcan.jpg'); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   // background-color: $negro;
   flex-direction: column;
@@ -12,10 +17,10 @@
 
 .faq h1 {
   font-size: 4.4rem;
-  font-weight: normal ;
+  font-weight: normal;
   color: $rojo;
   text-align: center;
-  
+
 }
 
 .faq h2 {
@@ -28,7 +33,7 @@
 .faq h3 {
   font-size: 2rem;
   font-weight: normal;
-  text-align:justify;
+  text-align: justify;
   color: $celeste;
   margin-bottom: 25px;
   display: flex;

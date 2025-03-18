@@ -8,7 +8,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  // background-color: $negro;
+  background-image: url('../../assets/images/Fondos/MonteNegro.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   flex-wrap: nowrap;
   position: fixed;
   top: 0;
