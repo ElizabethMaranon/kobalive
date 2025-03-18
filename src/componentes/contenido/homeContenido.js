@@ -8,28 +8,27 @@ export default class HomeContenido extends Component {
       <div className='contenido_app_container'>
         <div className='contenido_app_banda'>
           <div className='banda'>
-            banda1
+            Suicidal Angels
           </div>
           <div className='banda'>
-            banda2
+            Wolfheart          </div>
+          <div className='banda'>
+            The Electric Alley
           </div>
           <div className='banda'>
-            banda3
+            Eclipse (Sweden)
           </div>
           <div className='banda'>
-            banda4
+            Before The Dawn
           </div>
           <div className='banda'>
-            banda5
+            Asgarth 
           </div>
           <div className='banda'>
-            banda6
+            Moonshinerds 
           </div>
           <div className='banda'>
-            banda7
-          </div>
-          <div className='banda'>
-            banda8
+            Ehun Kilo
           </div>
         </div>
       </div>

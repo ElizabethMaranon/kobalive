@@ -33,7 +33,7 @@ body {
 }
 
 .navegador {
-    border-bottom: 1px solid $negro;
+    border-bottom: $bordes;
     height: 25px;
     background-color: $gris;
     display: flex;

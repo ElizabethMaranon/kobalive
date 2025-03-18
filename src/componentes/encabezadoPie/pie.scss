@@ -1,7 +1,6 @@
 @import '../sass.scss';
 
 .pie_container {
-  // border: 1px solid $rojo;
   padding: 10px;
   box-sizing: border-box;
   color: $celeste;
@@ -27,7 +26,6 @@
 .organizador,
 .promotor,
 .contacto {
-  // border: 1px solid $celeste;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -38,14 +36,12 @@
 .texto_organizador,
 .texto_promotor,
 .texto_contacto {
-  // border: 1px solid $amarillo;
   box-sizing: border-box;
   font-size: 2rem;
   color: $amarillo;
 }
 
 .logo_promotor {
-  // border: 1px solid $morado;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;

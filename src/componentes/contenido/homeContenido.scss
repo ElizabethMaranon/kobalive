@@ -1,19 +1,22 @@
 @import '../sass.scss';
 
 .contenido_app_banda {
+  box-sizing: border-box;
   background-color: $gris;
   padding: 20px 50px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
-  /* Espacio entre elementos */
+  font-size: $letra;
 }
 
 .banda {
-  display:flex;
-  flex: 1 1 calc(50% - 10px);
-  /* Ocupa el 50% del ancho menos el gap */
-  justify-content: center;
+  border: $bordes;
+  display: flex;
+  flex: 1 1 calc(33% - 10px);
+  justify-content: space-around;
   align-content: center;
+  align-items: center;
+
 }
