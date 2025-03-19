@@ -43,6 +43,9 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-size: 2rem;
+    position: sticky;
+    top: 150px;
+    background-color: transparentize($color: #000000, $amount: 0.7);
 
     a {
         text-decoration: none;
