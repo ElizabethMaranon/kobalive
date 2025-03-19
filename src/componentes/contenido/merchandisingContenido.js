@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './merchandisingContenido.scss';
+import '../../estilos/contenido/merchandisingContenido.scss';
 
 export default class MerchandisingContenido extends Component {
 render () {

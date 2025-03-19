@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './faqContenido.scss';
+import '../../estilos/contenido/faqContenido.scss';
 
 export default class FaqContenido extends Component {
   render() {

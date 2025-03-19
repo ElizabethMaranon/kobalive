@@ -3,23 +3,24 @@
 .faq {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 10px;
   padding: 20px 10%;
-  max-height: 500px; /* Ajusta la altura máxima según sea necesario */
   overflow-y: auto;
-  border: 1px solid #ccc; /* Opcional: estilo del borde */
-  border-radius: 5px; /* Opcional: esquinas redondeadas */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 300px;
+  min-height: 50px;
 }
 
 .faq .scroll-container {
-  max-height: 400px; /* Ajusta la altura máxima según sea necesario */
+  max-height: 300px;
   overflow-y: auto;
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc; /* Opcional: estilo del borde */
-  border-radius: 5px; /* Opcional: esquinas redondeadas */
+  border-radius: 5px;
 }
 
 .faq h1 {
