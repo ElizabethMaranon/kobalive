@@ -22,12 +22,14 @@ export default class App extends Component {
             <Link to="/faq">FAQ</Link>
             <Link to="/merchandising">Merchandising</Link>
           </nav>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/faq" element={<Faq />} />
-            <Route path="/merchandising" element={<Merchandising />} />
-          </Routes>
+          <div className="rutas">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/sobre" element={<Sobre />} />
+              <Route path="/faq" element={<Faq />} />
+              <Route path="/merchandising" element={<Merchandising />} />
+            </Routes>
+          </div>
         </Router>
         <Pie />
       </div>
