@@ -9,6 +9,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
+  position: sticky;
+  top:0;
+  background-color: transparentize($color: #000000, $amount: 0.5);
 }
 
 .logo {
