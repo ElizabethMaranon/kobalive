@@ -23,7 +23,6 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
     cursor: url('../assets/images/Koba/KobaPua_32x32.png'), auto;
-    margin-top: 150px;
     background-image: url('../assets/images/Fondos/volcan.jpg'); // Ruta de la imagen
     background-size: cover; // Ajusta la imagen para cubrir todo el fondo
     background-position: center; // Centra la imagen
@@ -32,15 +31,12 @@ body {
 }
 
 .app {
-    margin-top: 2rem;
     display: grid;
     justify-items: center;
 }
 
 .navegador {
-    // border-bottom: $bordes;
     height: 25px;
-    // background-color: $gris;
     display: flex;
     gap: 1rem;
     padding: 1rem;

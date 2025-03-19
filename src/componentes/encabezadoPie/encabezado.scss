@@ -8,16 +8,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-image: url('../../assets/images/Fondos/MonteNegro.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  flex-wrap: nowrap;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
   gap: 10px;
 }
 
@@ -61,7 +51,6 @@
 .entradas_titulo {
   color: $amarillo;
   align-self: center;
-  ;
 }
 
 .entradas_boton {
