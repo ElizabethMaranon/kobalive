@@ -1,13 +1,7 @@
 @import '../sass.scss';
 
 .faq {
-  background-image: url('../../assets/images/Fondos/volcan.jpg'); 
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   display: flex;
-  // background-color: $negro;
   flex-direction: column;
   justify-content: center;
   align-items: center;
