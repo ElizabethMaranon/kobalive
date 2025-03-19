@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './homeContenido.scss';
+import '../../estilos/contenido/homeContenido.scss';
 import Suicidal from '../../assets/images/Bandas/Suicidal_Angels_Logo.png';
 
 

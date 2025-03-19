@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './sobreContenido.scss';
+import '../../estilos/contenido/sobreContenido.scss';
 
 export default class SobreContenido extends Component {
   render() {

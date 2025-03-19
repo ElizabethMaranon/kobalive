@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 import 'moment/locale/es';
-import './encabezado.scss';
+import '../../estilos/encabezadoPie/encabezado.scss';
 
 import Logo from '../../assets/images/Koba/LogoKoba.png';
 

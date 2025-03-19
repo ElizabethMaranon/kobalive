@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import './App.scss';
+import '../estilos/App.scss';
 // Complementos de la aplicación
 import Encabezado from './encabezadoPie/encabezado';
 import Pie from './encabezadoPie/pie';
