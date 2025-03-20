@@ -2,11 +2,18 @@
 $celeste: #55eed7;
 $azul: #556cee;
 $rojo: #ee556c;
+$rojo_trans: transparentize($color: #ee556c, $amount: 0.75);
+$rojo_semi: transparentize($color: #ee556c, $amount: 0.5);
+$granate: #800000;
+$granate_semi: transparentize($color: #800000, $amount: 0.75);
+$granate_trans: transparentize($color: #800000, $amount: 0.5);
 $amarillo: #eed755;
 $morado: #d755ee;
 //kobalive
 $blanco: aliceblue;
 $negro: #292421;
+$negro_semi: transparentize($color: #292421, $amount: 0.5);
+$negro_trans: transparentize($color: #292421, $amount: 0.75);
 $marron: #c49c74;
 $gris: #9ca6b1;
 $blanco: #e3e4e5;

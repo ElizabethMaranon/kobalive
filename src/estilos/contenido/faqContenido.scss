@@ -1,4 +1,5 @@
 @import '../sass.scss';
+@import '../scroll.scss';
 
 .faq {
   box-sizing: border-box;
@@ -8,25 +9,18 @@
   align-items: center;
   gap: 10px;
   padding: 20px 10%;
-  overflow-y: auto;
-  /* Evita que el contenido desborde */
+  overflow-y: scroll;
   max-height: calc(100vh - 350px);
-  /* Ajusta el tamaño máximo para evitar superposición con el pie */
   min-height: 50px;
+  scrollbar-width: auto;
 }
 
 .faq .scroll-container {
   max-height: 100%;
-  /* Ocupa todo el espacio disponible dentro de .faq */
   overflow-y: auto;
-  /* Permite el desplazamiento vertical */
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  /* Opcional: estilo del borde */
-  border-radius: 5px;
   box-sizing: border-box;
-  /* Asegura que el padding no afecte el tamaño */
 }
 
 .faq h1 {
