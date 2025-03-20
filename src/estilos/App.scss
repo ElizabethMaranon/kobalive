@@ -10,7 +10,7 @@ html {
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
     font-family: 'Metal Mania';
 
 }
@@ -31,13 +31,16 @@ body {
 }
 
 .app {
-    display: grid;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
     
 }
 
 .navegador {
-    height: 25px;
+    box-sizing: border-box;
+    height: 50px;
     display: flex;
     gap: 1rem;
     padding: 1rem;
