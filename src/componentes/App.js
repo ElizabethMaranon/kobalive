@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import '../estilos/App.scss';
 // Complementos de la aplicación
 import Encabezado from './encabezadoPie/encabezado';
@@ -17,10 +17,10 @@ export default class App extends Component {
         <Encabezado />
         <Router>
           <nav className="navegador">
-            <Link to="/">Home</Link>
-            <Link to="/sobre">Sobre</Link>
-            <Link to="/faq">FAQ</Link>
-            <Link to="/merchandising">Merchandising</Link>
+            <NavLink to="/" className="link-home" activeClassName="active">Home</NavLink>
+            <NavLink to="/sobre" className="link-sobre" activeClassName="active">Sobre</NavLink>
+            <NavLink to="/faq" className="link-faq" activeClassName="active">FAQ</NavLink>
+            <NavLink to="/merchandising" className="link-merchandising" activeClassName="active">Merchandising</NavLink>
           </nav>
           <div className="rutas">
             <Routes>
