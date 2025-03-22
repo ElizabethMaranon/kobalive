@@ -1,34 +1,28 @@
-// Cursor personalizado en hover
 @mixin cursor-flotante($imagen-cursor) {
-  cursor: url($imagen-cursor), auto;
+  cursor: url($imagen-cursor) 16 0, auto;
 }
 
-// Efectos de texto estándar para el tema del sitio
 @mixin efectos-texto {
   font-family: 'Metal Mania', cursive;
   font-weight: normal;
   text-shadow: $negro $sombra-texto-predeterminada;
 }
 
-// Alineación centrada con flexbox (horizontal y vertical)
 @mixin flex-centrado {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-// Disposición en columna con flexbox
 @mixin flex-columna {
   display: flex;
   flex-direction: column;
 }
 
-// Transiciones suavizadas para elementos interactivos
 @mixin transicion($propiedad: all, $duracion: 0.3s, $funcion: ease) {
   transition: $propiedad $duracion $funcion;
 }
 
-// Media queries para diseño responsivo en diferentes dispositivos
 @mixin responsivo($punto-ruptura) {
   @if $punto-ruptura ==movil {
     @media (max-width: 767px) {
