@@ -4,7 +4,7 @@
 
   /* Ancho base de la barra de desplazamiento */
   &::-webkit-scrollbar {
-    width: 10px;
+    width: 15px;
   }
 
   /* Estilo del carril/fondo de la barra de desplazamiento */
@@ -30,10 +30,10 @@
   }
 
   /* Estado hover del "pulgar" o deslizador */
-  +&::-webkit-scrollbar-thumb:hover {
+  &::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(180deg, $morado, $morado_semi);
     box-shadow: 0 2px 6px $morado, inset 0 -2px 6px $blanco;
-    cursor: url('../assets/images/Koba/KobaPua_32x32_Rojo.png')16 0, auto;
+    cursor: url('../assets/images/Koba/KobaPua_32x32_Morado.png')16 0, auto;
   }
 
 }
