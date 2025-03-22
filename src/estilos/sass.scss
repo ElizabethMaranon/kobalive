@@ -1,9 +1,11 @@
+@import './mixin.scss';
+
 // Triadic Color
 $celeste: #55eed7;
 $azul: #556cee;
 $rojo: #ee556c;
-$rojo_trans: transparentize($color: $rojo, $amount: 0.75);
 $rojo_semi: transparentize($color: $rojo, $amount: 0.5);
+$rojo_trans: transparentize($color: $rojo, $amount: 0.75);
 $granate: #800000;
 $granate_semi: transparentize($color: $granate, $amount: 0.75);
 $granate_trans: transparentize($color: $granate, $amount: 0.5);
@@ -22,10 +24,12 @@ $blanco: #e3e4e5;
 //Tamaño letra
 $letra: clamp(1.5rem, 2vw, 3rem);
 //bordes
-$bordes: 1px solid$blanco;
+$bordes: 1px solid $blanco;
 
-.navegador a.active {
-    color: $morado; /* Cambia el color del texto cuando está activo */
-    font-weight: bold; /* Resalta el enlace activo */
-    text-shadow: $negro 3px 3px 1px; /* Mantén el relieve del texto */
-}
+// Variables adicionales
+$sombra-texto-predeterminada: 3px 3px 1px;
+$sombra-texto-hover: 5px 5px 2px;
+$tamaño-fuente-base: 62.5%;
+$tamaño-fuente-nav: 3rem;
+$transicion-predeterminada: all 0.3s ease;
+$fondo-semitransparente: rgba(0, 0, 0, 0.3);

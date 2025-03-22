@@ -3,7 +3,7 @@
 
 // Configuración global
 html {
-    font-size: 62.5%; // 1rem es 10px
+    font-size: $tamaño-fuente-base; // 1rem es 10px
 }
 
 *,
@@ -17,24 +17,24 @@ html {
 
 // Estilos del cuerpo
 body {
-    font-family: 'Metal Mania', cursive;
-    font-weight: normal;
-    text-shadow: $negro 3px 3px 1px;
+    @include efectos-texto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
     cursor: url('../assets/images/Koba/KobaPua_32x32.png') 16 0, auto;
-    background-image: url('../assets/images/Fondos/volcan.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+    background: {
+        image: url('../assets/images/Fondos/volcan.jpg');
+        size: cover;
+        position: center;
+        repeat: no-repeat;
+        attachment: fixed;
+    }
 }
 
 // Estilos de la aplicación
 .app {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -42,17 +42,17 @@ body {
 
 // Estilos del navegador
 .navegador {
-    box-sizing: border-box;
     height: 50px;
     display: flex;
     gap: 1rem;
     padding: 1rem;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 3rem;
+    font-size: $tamaño-fuente-nav;
     position: sticky;
     top: 150px;
-    background-color: transparentize($color: #000000, $amount: 0.7);
+    background-color: $fondo-semitransparente;
+    z-index: 100;
 
     a {
         text-decoration: none;
@@ -60,23 +60,25 @@ body {
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
+        transition: $transicion-predeterminada;
 
         &:hover {
             text-decoration: none;
             color: $rojo;
             font-size: 1.25em;
-            cursor: url('../assets/images/Koba/KobaPua_32x32_Rojo.png'), auto;
+            @include cursor-flotante('../assets/images/Koba/KobaPua_32x32_Rojo.png');
+            transform: scale(1.05);
         }
 
         &.active {
             color: $morado;
-            text-shadow: 3px 3px 1px $blanco !important; // Asegúrate de que la sombra sea blanca
-        }
+            text-shadow: $sombra-texto-predeterminada $blanco !important;
 
-        &.active:hover {
-            color: $rojo; // Aclara el color morado al hacer hover
-            text-shadow: 5px 5px 2px $negro !important; // Cambia la sombra al hacer hover
-            font-size: 1.5em; // Incrementa el tamaño del texto al hacer hover
+            &:hover {
+                color: $rojo;
+                text-shadow: $sombra-texto-hover $negro !important;
+                font-size: 1.5em;
+            }
         }
     }
 }
