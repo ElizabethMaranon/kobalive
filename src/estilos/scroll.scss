@@ -9,32 +9,31 @@
 
   /* Estilo del carril/fondo de la barra de desplazamiento */
   &::-webkit-scrollbar-track {
-    background: linear-gradient(180deg, $negro_trans, $negro_semi);
+    background: linear-gradient(180deg, transparentize($color: $negro, $amount: 0.75), transparentize($color: $negro, $amount: 0.5));
     border-radius: 14px;
-    box-shadow: inset 0 0 5px $negro_semi;
+    box-shadow: inset 0 0 5px transparentize($color: $negro, $amount: 0.5);
     transition: background 0.2s ease-in-out;
   }
 
   /* Estilo del "pulgar" o deslizador de la barra de desplazamiento */
   &::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, $morado_trans, $morado);
+    background: linear-gradient(180deg, transparentize($color: $morado, $amount: 0.75), $morado);
     border-radius: 14px;
     box-shadow: 0 2px 4px $morado, inset 0 -2px 4px $blanco;
-    border: 2px solid $morado_trans;
+    border: 2px solid transparentize($color: $morado, $amount: 0.75);
     transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
   }
 
   /* Estado hover del carril/fondo */
   &::-webkit-scrollbar-track:hover {
-    background: linear-gradient(180deg, $negro, $negro_semi);
+    background: linear-gradient(180deg, $negro, transparentize($color: $negro, $amount: 0.5));
   }
 
   /* Estado hover del "pulgar" o deslizador */
   &::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(180deg, $morado, $morado_semi);
+    background: linear-gradient(180deg, $morado, transparentize($color: $morado, $amount: 0.5));
     box-shadow: 0 2px 6px $morado, inset 0 -2px 6px $blanco;
     cursor: url('../assets/images/Koba/KobaPua_32x32_Morado.png')16 0, auto;
   }
 
 }
-
