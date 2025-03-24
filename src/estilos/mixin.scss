@@ -19,10 +19,6 @@
   flex-direction: column;
 }
 
-@mixin transicion($propiedad: all, $duracion: 0.3s, $funcion: ease) {
-  transition: $propiedad $duracion $funcion;
-}
-
 @mixin responsivo($punto-ruptura) {
   @if $punto-ruptura ==movil {
     @media (max-width: 767px) {

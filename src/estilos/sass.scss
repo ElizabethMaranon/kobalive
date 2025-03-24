@@ -17,18 +17,17 @@ $blanco: #e3e4e5;
 $letra: clamp(1.5rem, 2vw, 3rem);
 $tamaño-fuente-base: 62.5%;
 $tamaño-fuente-nav: 3rem;
-//bordes
-$bordes: 1px solid $blanco;
+//Bordes
 $border-radius: 4px;
-// Variables de sombras
+// Sombras
 $sombra-texto-predeterminada: 3px 3px 1px;
 $sombra-texto-hover: 5px 5px 2px;
-// Variables de transiciones
+// Transiciones
 $transicion-predeterminada: all 0.3s ease;
 // Variables de fondo
 $fondo-claro: transparentize($negro, 0.75);
 $fondo-oscuro: transparentize($negro, 0.5);
-//
+//Paddings
 $padding-desktop: 20px 5%;
 $padding-tablet: 15px 3%;
 $padding-mobile: 15px 2%;
