@@ -1,31 +1,22 @@
 @import '../sass.scss';
 @import '../scroll.scss';
 
-// Variables de color y tamaño
-$color-secundario: #444;
-$color-borde: #ddd;
-$color-texto: #333;
-$color-acento: #3498db;
-$color-hover: #2980b9;
-$radio-borde: 4px;
-$transicion: 0.3s ease-in-out;
-$ancho-maximo: 1200px; // Aumentado de 800px a 1200px para mejor uso del espacio
-
-// Estilos para el contenedor principal
 .faq {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding: 20px 5%; // Reducido el padding horizontal de 10% a 5%
-  overflow-y: auto; // Cambiado de scroll a auto
+  padding: 20px 5%;
+  overflow-y: auto;
   max-height: calc(100vh - 350px);
-  min-height: 300px; // Aumentado para dar más espacio al contenido
+  min-height: 300px;
   scrollbar-width: auto;
-  max-width: 100%; // Cambiado para ocupar todo el ancho disponible
-  width: 100%; // Añadido para asegurar que ocupa todo el ancho
+  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
+ 
+  }
 
   h1 {
     font-size: 5rem;
@@ -34,75 +25,74 @@ $ancho-maximo: 1200px; // Aumentado de 800px a 1200px para mejor uso del espacio
     text-align: center;
     margin-bottom: 2rem;
   }
-}
 
-// Contenedor de las preguntas y respuestas
-.faq-container {
+
+.faq-contenedor {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  width: 100%; // Asegura que ocupe todo el ancho disponible
-}
-
-// Cada elemento de pregunta y respuesta
-.faq-item {
-  background-color: $negro-trans;
-  border-radius: $negro-semi;
-  overflow: auto;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  border: 1px solid $color-borde;
   width: 100%;
 }
 
-// Estilos para el botón de pregunta
+.faq-item {
+  background-color: transparentize($color: $negro, $amount: 0.75);
+  border-radius: transparentize($color: $gris, $amount: 0.5);
+  overflow: auto;
+  box-shadow: 0 2px 5px $blanco;
+  border: 1px solid $gris;
+  width: 100%;
+}
+
 .faq-pregunta {
   width: 100%;
   border: none;
   padding: 1.5rem;
-  text-align: left;
-  font-size: 2.5rem;
+  font-size: 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  background-color: $negro-semi;;
-  transition: background-color $transicion;
-  color: $amarillo; // Usando el color amarillo del diseño anterior
+  background-color: $fondo-claro;
+  transition: background-color $transicion-predeterminada;
+  color: $amarillo;
+  position: relative;
+
+  span {
+    text-align: center;
+    padding: 0 30px;
+  }
 
   &:hover {
-    background-color: $negro_semi;
+    background-color: $fondo-oscuro;
   }
 
   &.activa {
-    background-color: $negro;
+    background-color: transparentize($color: $morado, $amount: 0.75);
     color: $amarillo;
-    border-bottom: 1px solid $color-borde;
+    border-bottom: 1px solid $morado;
   }
 
   &:focus {
-    outline: 2px solid $color-acento;
+    outline: 2px solid $morado;
     outline-offset: -2px;
   }
 }
 
-// Icono para mostrar el estado
 .faq-icono {
+  position: relative;
+  margin-left: auto;
   font-size: 2.5rem;
   font-weight: bold;
-  min-width: 24px;
-  text-align: center;
-  margin-left: 15px;
 }
 
-// Contenedor de la respuesta
 .faq-respuesta {
   max-height: 0;
   overflow: hidden;
   padding: 0 1.5rem;
   opacity: 0;
-  transition: all $transicion;
+  transition: all $transicion-predeterminada;
 
   &.visible {
-    max-height: 2000px; // Aumentado significativamente para acomodar respuestas largas
+    max-height: 2000px;
     opacity: 1;
     padding: 1.5rem;
   }
@@ -110,21 +100,20 @@ $ancho-maximo: 1200px; // Aumentado de 800px a 1200px para mejor uso del espacio
   p {
     margin: 0;
     line-height: 1.6;
-    color: $celeste; // Usando el color celeste del diseño anterior
-    font-size: 2rem; // Aumentado para coincidir con el diseño anterior
+    color: $celeste;
+    font-size: 3rem;
   }
 }
 
-// Estilos responsivos
 @media (max-width: 1400px) {
-  .faq-container {
-    max-width: 90%; // En pantallas grandes pero no enormes, usar el 90% del ancho
+  .faq-contenedor {
+    max-width: 90%;
   }
 }
 
 @media (max-width: 768px) {
   .faq {
-    padding: 15px 3%; // Reducido aún más el padding en pantallas medianas
+    padding: 15px 3%;
 
     h1 {
       font-size: 3.5rem;
@@ -147,7 +136,7 @@ $ancho-maximo: 1200px; // Aumentado de 800px a 1200px para mejor uso del espacio
 
 @media (max-width: 480px) {
   .faq {
-    padding: 15px 2%; // Mínimo padding en móviles
+    padding: 15px 2%;
 
     h1 {
       font-size: 2.5rem;

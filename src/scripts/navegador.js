@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
       // Elimina la clase "active" de todos los enlaces
       enlaces.forEach((e) => e.classList.remove("active"));
 
-      // Agrega la clase "active" al enlace clicado
       enlace.classList.add("active");
     });
   });
