@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kobalive/static/css/main.07160430.css",
-    "main.js": "/kobalive/static/js/main.7ef71c96.js",
+    "main.js": "/kobalive/static/js/main.568b5bbf.js",
     "static/css/849.68b02e64.chunk.css": "/kobalive/static/css/849.68b02e64.chunk.css",
     "static/js/849.54229bb1.chunk.js": "/kobalive/static/js/849.54229bb1.chunk.js",
     "static/css/440.196a2711.chunk.css": "/kobalive/static/css/440.196a2711.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/Sugaar.png": "/kobalive/static/media/Sugaar.2cab294fc650a7a60ddc.png",
     "index.html": "/kobalive/index.html",
     "main.07160430.css.map": "/kobalive/static/css/main.07160430.css.map",
-    "main.7ef71c96.js.map": "/kobalive/static/js/main.7ef71c96.js.map",
+    "main.568b5bbf.js.map": "/kobalive/static/js/main.568b5bbf.js.map",
     "849.68b02e64.chunk.css.map": "/kobalive/static/css/849.68b02e64.chunk.css.map",
     "849.54229bb1.chunk.js.map": "/kobalive/static/js/849.54229bb1.chunk.js.map",
     "440.196a2711.chunk.css.map": "/kobalive/static/css/440.196a2711.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.07160430.css",
-    "static/js/main.7ef71c96.js"
+    "static/js/main.568b5bbf.js"
   ]
 }
