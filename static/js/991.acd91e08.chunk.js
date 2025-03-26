@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkkobalive=self.webpackChunkkobalive||[]).push([[991],{991:(e,s,a)=>{a.r(s),a.d(s,{default:()=>l});var k=a(43);a(579);class l extends k.Component{render(){}}}}]);
+//# sourceMappingURL=991.acd91e08.chunk.js.map

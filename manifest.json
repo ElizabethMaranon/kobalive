@@ -1,0 +1,29 @@
+{
+  "name": "KobaLive",
+  "short_name": "KobaLive",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "Koba Live official Web",
+  "icons": [
+    {
+      "src": "icon/lowres.webp",
+      "sizes": "48x48",
+      "type": "image/webp"
+    },
+    {
+      "src": "icon/lowres",
+      "sizes": "48x48"
+    },
+    {
+      "src": "icon/hd_hi",
+      "sizes": "72x72"
+    },
+    {
+      "src": "icon/hd_hi.svg",
+      "sizes": "72x72",
+      "type": "image/svg"
+    }
+  ]
+}

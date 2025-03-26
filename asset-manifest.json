@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/kobalive/static/css/main.07160430.css",
+    "main.js": "/kobalive/static/js/main.7ef71c96.js",
+    "static/css/849.68b02e64.chunk.css": "/kobalive/static/css/849.68b02e64.chunk.css",
+    "static/js/849.54229bb1.chunk.js": "/kobalive/static/js/849.54229bb1.chunk.js",
+    "static/css/440.196a2711.chunk.css": "/kobalive/static/css/440.196a2711.chunk.css",
+    "static/js/440.2a6c7bab.chunk.js": "/kobalive/static/js/440.2a6c7bab.chunk.js",
+    "static/css/952.27ae2225.chunk.css": "/kobalive/static/css/952.27ae2225.chunk.css",
+    "static/js/952.3ec4476c.chunk.js": "/kobalive/static/js/952.3ec4476c.chunk.js",
+    "static/css/991.31d6cfe0.chunk.css": "/kobalive/static/css/991.31d6cfe0.chunk.css",
+    "static/js/991.acd91e08.chunk.js": "/kobalive/static/js/991.acd91e08.chunk.js",
+    "static/js/453.8db5b53a.chunk.js": "/kobalive/static/js/453.8db5b53a.chunk.js",
+    "static/media/LogoKoba.png": "/kobalive/static/media/LogoKoba.4183af5884b0c7ac98a3.png",
+    "static/media/perfil_pua.jpg": "/kobalive/static/media/perfil_pua.7c9fb978afe7da0b6af6.jpg",
+    "static/media/volcan.jpg": "/kobalive/static/media/volcan.366aed16be0cdf27eaa9.jpg",
+    "static/media/equipoKoba1024x768.jpg": "/kobalive/static/media/equipoKoba1024x768.4c5123d085e0bc6361e3.jpg",
+    "static/media/Diputacion.png": "/kobalive/static/media/Diputacion.6b43e799fd96ee941aae.png",
+    "static/media/Suicidal_Angels_Logo.png": "/kobalive/static/media/Suicidal_Angels_Logo.31b4079056361dc39bf8.png",
+    "static/media/Lasuen_Erlia.png": "/kobalive/static/media/Lasuen_Erlia.21ba11e24929fd78b81a.png",
+    "static/media/Abadiño.png": "/kobalive/static/media/Abadiño.b047783fe7c3532cc363.png",
+    "static/media/Sugaar.png": "/kobalive/static/media/Sugaar.2cab294fc650a7a60ddc.png",
+    "index.html": "/kobalive/index.html",
+    "main.07160430.css.map": "/kobalive/static/css/main.07160430.css.map",
+    "main.7ef71c96.js.map": "/kobalive/static/js/main.7ef71c96.js.map",
+    "849.68b02e64.chunk.css.map": "/kobalive/static/css/849.68b02e64.chunk.css.map",
+    "849.54229bb1.chunk.js.map": "/kobalive/static/js/849.54229bb1.chunk.js.map",
+    "440.196a2711.chunk.css.map": "/kobalive/static/css/440.196a2711.chunk.css.map",
+    "440.2a6c7bab.chunk.js.map": "/kobalive/static/js/440.2a6c7bab.chunk.js.map",
+    "952.27ae2225.chunk.css.map": "/kobalive/static/css/952.27ae2225.chunk.css.map",
+    "952.3ec4476c.chunk.js.map": "/kobalive/static/js/952.3ec4476c.chunk.js.map",
+    "991.acd91e08.chunk.js.map": "/kobalive/static/js/991.acd91e08.chunk.js.map",
+    "453.8db5b53a.chunk.js.map": "/kobalive/static/js/453.8db5b53a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07160430.css",
+    "static/js/main.7ef71c96.js"
+  ]
+}
