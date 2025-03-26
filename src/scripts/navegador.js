@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   enlaces.forEach((enlace) => {
     enlace.addEventListener("click", () => {
-      // Elimina la clase "active" de todos los enlaces
       enlaces.forEach((e) => e.classList.remove("active"));
 
       enlace.classList.add("active");
