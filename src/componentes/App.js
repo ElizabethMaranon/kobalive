@@ -23,7 +23,7 @@ const RUTAS = {
 const rutas = [
   {
     path: RUTAS.HOME,
-    nombre: 'Home',
+    nombre: '20 Sept 2025',
     componente: <Home />,
     clase: 'link-home'
   },
