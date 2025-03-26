@@ -96,6 +96,8 @@ const App = () => {
           <ErrorBoundary>
             <Suspense fallback={<Cargando />}>
               <Routes>
+                {/* Redirigir explícitamente la ruta raíz al componente Home */}
+                <Route path="/" element={<Home />} />
                 {rutas.map(({ path, componente }) => (
                   <Route key={path} path={path} element={componente} />
                 ))}
