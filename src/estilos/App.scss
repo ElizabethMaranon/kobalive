@@ -72,7 +72,7 @@ body {
 
         &.active {
             color: $morado;
-            text-shadow: $sombra-texto-predeterminada $blanco !important;
+            text-shadow: $sombra-blanca !important;
 
             &:hover {
                 color: $rojo;

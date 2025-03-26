@@ -20,7 +20,9 @@ $tamaño-fuente-nav: 3rem;
 //Bordes
 $border-radius: 4px;
 // Sombras
-$sombra-texto-predeterminada: 3px 3px 1px;
+$sombra-negra: $negro 3px 3px 1px;
+$sombra-blanca: $blanco 3px 3px 1px;
+
 $sombra-texto-hover: 5px 5px 2px;
 // Transiciones
 $transicion-predeterminada: all 0.3s ease;
@@ -31,3 +33,5 @@ $fondo-oscuro: transparentize($negro, 0.5);
 $padding-desktop: 20px 5%;
 $padding-tablet: 15px 3%;
 $padding-mobile: 15px 2%;
+
+$contenido: calc(100vh - var(--header-height) - var(--footer-height));

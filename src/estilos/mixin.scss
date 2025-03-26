@@ -2,10 +2,16 @@
   cursor: url($imagen-cursor) 16 0, auto;
 }
 
+@mixin fijar-contenido {
+  height: calc(100vh - var(--header-height) - var(--footer-height));
+  margin-top: var(--header-height);
+  margin-bottom: var(--footer-height); 
+}
+
 @mixin efectos-texto {
   font-family: 'Metal Mania', cursive;
   font-weight: normal;
-  text-shadow: $negro $sombra-texto-predeterminada;
+  text-shadow: $sombra-negra;
 }
 
 @mixin flex-centrado {

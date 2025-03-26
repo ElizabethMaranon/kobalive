@@ -23,7 +23,7 @@ const RUTAS = {
 const rutas = [
   {
     path: RUTAS.HOME,
-    nombre: '20 Sept 2025',
+    nombre: 'Home',
     componente: <Home />,
     clase: 'link-home'
   },
@@ -96,7 +96,7 @@ const App = () => {
           <ErrorBoundary>
             <Suspense fallback={<Cargando />}>
               <Routes>
-                {/* Redirigir explícitamente la ruta raíz al componente Home */}
+                {/* Asegúrate de que la ruta raíz esté correctamente configurada */}
                 <Route path="/" element={<Home />} />
                 {rutas.map(({ path, componente }) => (
                   <Route key={path} path={path} element={componente} />
